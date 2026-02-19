@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="48" tileheight="48" infinite="0" nextlayerid="5" nextobjectid="129">
+ <tileset firstgid="1" source="../tilesets/New_Overworld_A2.tsx"/>
+ <layer id="1" name="ground" width="25" height="25">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="2" name="lava" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,117,118,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,117,118,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,0,0,0,0,
+0,0,0,0,119,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,135,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,118,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,0,117,118,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,
+0,0,0,0,0,0,0,0,0,117,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,133,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,118,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,0,117,118,0,0,
+0,0,0,119,120,0,0,0,0,0,119,120,0,0,0,0,0,0,0,0,0,133,134,0,0,
+0,0,0,135,136,0,0,0,0,0,135,136,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,117,118,0,0,0,0,0,
+0,0,117,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,133,134,0,0,0,0,0,
+0,0,133,134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,119,120,0,0,0,0,0,0,0,0,0,119,120,0,0,0,0,0,0,0,0,0,
+0,0,0,135,136,0,0,0,0,0,0,0,0,0,135,136,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,120,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,135,136,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" name="startingPoint" x="0" y="0" width="48" height="48"/>
+  <object id="2" name="finishPoint" x="1148" y="1151" width="48" height="48"/>
+  <object id="3" name="obstacle" x="192" y="189" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" name="obstacle" x="145" y="672" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" name="obstacle" x="434" y="428" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" name="obstacle" x="480" y="676" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" name="obstacle" x="862" y="770" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" name="obstacle" x="673" y="957" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="14" name="obstacle" x="1009" y="1053" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="obstacle" x="1010" y="619" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="obstacle" x="718" y="577" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="obstacle" x="961" y="337" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" name="obstacle" x="672" y="291" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="15" name="obstacle" x="767" y="96" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="16" name="obstacle" x="529" y="51" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" name="obstacle" x="96" y="815" width="96" height="96">
+   <properties>
+    <property name="causesDeath" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" x="194" y="4" width="93" height="93"/>
+  <object id="22" x="195" y="101" width="93" height="93"/>
+  <object id="23" x="295" y="101" width="93" height="93"/>
+  <object id="24" x="295" y="197" width="93" height="93"/>
+  <object id="25" x="487" y="197" width="93" height="93"/>
+  <object id="26" x="583" y="197" width="93" height="93"/>
+  <object id="27" x="679" y="197" width="93" height="93"/>
+  <object id="28" x="775" y="197" width="93" height="93"/>
+  <object id="29" x="6" y="245" width="93" height="93"/>
+  <object id="30" x="295" y="293" width="93" height="93"/>
+  <object id="31" x="391" y="293" width="93" height="93"/>
+  <object id="32" x="487" y="293" width="93" height="93"/>
+  <object id="33" x="771" y="293" width="97" height="93"/>
+  <object id="34" x="7" y="341" width="93" height="93"/>
+  <object id="35" x="769" y="388" width="99" height="93"/>
+  <object id="36" x="7" y="437" width="93" height="93"/>
+  <object id="37" x="103" y="437" width="93" height="93"/>
+  <object id="38" x="199" y="437" width="93" height="93"/>
+  <object id="39" x="775" y="485" width="93" height="93"/>
+  <object id="40" x="871" y="485" width="93" height="93"/>
+  <object id="41" x="7" y="533" width="93" height="93"/>
+  <object id="42" x="103" y="533" width="93" height="93"/>
+  <object id="43" x="199" y="533" width="93" height="93"/>
+  <object id="44" x="295" y="533" width="93" height="93"/>
+  <object id="45" x="871" y="581" width="93" height="93"/>
+  <object id="46" x="7" y="629" width="93" height="93"/>
+  <object id="47" x="295" y="629" width="93" height="93"/>
+  <object id="48" x="7" y="725" width="93" height="93"/>
+  <object id="49" x="295" y="725" width="93" height="93"/>
+  <object id="50" x="679" y="725" width="93" height="93"/>
+  <object id="51" x="7" y="821" width="93" height="93"/>
+  <object id="52" x="295" y="821" width="93" height="93"/>
+  <object id="53" x="487" y="821" width="93" height="93"/>
+  <object id="54" x="583" y="821" width="93" height="93"/>
+  <object id="55" x="679" y="821" width="93" height="93"/>
+  <object id="56" x="871" y="869" width="93" height="93"/>
+  <object id="57" x="967" y="869" width="93" height="93"/>
+  <object id="58" x="1063" y="869" width="93" height="93"/>
+  <object id="59" x="7" y="917" width="93" height="93"/>
+  <object id="60" x="295" y="917" width="93" height="93"/>
+  <object id="61" x="391" y="917" width="93" height="93"/>
+  <object id="62" x="487" y="917" width="93" height="93"/>
+  <object id="63" x="775" y="965" width="93" height="93"/>
+  <object id="64" x="871" y="965" width="93" height="93"/>
+  <object id="65" x="7" y="1013" width="93" height="93"/>
+  <object id="66" x="583" y="1061" width="93" height="93"/>
+  <object id="67" x="679" y="1061" width="93" height="93"/>
+  <object id="68" x="775" y="1061" width="93" height="93"/>
+  <object id="69" x="7" y="1109" width="93" height="93"/>
+  <object id="70" x="103" y="1109" width="93" height="93"/>
+  <object id="71" x="199" y="1109" width="93" height="93"/>
+  <object id="72" x="295" y="1109" width="93" height="93"/>
+  <object id="73" x="391" y="1109" width="93" height="93"/>
+  <object id="74" x="487" y="1109" width="93" height="93"/>
+  <object id="75" name="mountain" x="199" y="3" width="94" height="93"/>
+  <object id="76" name="mountain" x="199" y="99" width="94" height="93"/>
+  <object id="77" name="mountain" x="295" y="99" width="94" height="93"/>
+  <object id="78" name="mountain" x="295" y="195" width="94" height="93"/>
+  <object id="79" name="mountain" x="487" y="195" width="94" height="93"/>
+  <object id="80" name="mountain" x="583" y="195" width="94" height="93"/>
+  <object id="81" name="mountain" x="679" y="195" width="94" height="93"/>
+  <object id="82" name="mountain" x="775" y="195" width="94" height="93"/>
+  <object id="83" name="mountain" x="7" y="243" width="94" height="93"/>
+  <object id="84" name="mountain" x="295" y="291" width="94" height="93"/>
+  <object id="85" name="mountain" x="391" y="291" width="94" height="93"/>
+  <object id="86" name="mountain" x="487" y="291" width="94" height="93"/>
+  <object id="87" name="mountain" x="775" y="291" width="94" height="93"/>
+  <object id="88" name="mountain" x="7" y="339" width="94" height="93"/>
+  <object id="89" name="mountain" x="775" y="387" width="94" height="93"/>
+  <object id="90" name="mountain" x="7" y="435" width="94" height="93"/>
+  <object id="91" name="mountain" x="103" y="435" width="94" height="93"/>
+  <object id="92" name="mountain" x="199" y="435" width="94" height="93"/>
+  <object id="93" name="mountain" x="775" y="483" width="94" height="93"/>
+  <object id="94" name="mountain" x="871" y="483" width="94" height="93"/>
+  <object id="95" name="mountain" x="7" y="531" width="94" height="93"/>
+  <object id="96" name="mountain" x="103" y="531" width="94" height="93"/>
+  <object id="97" name="mountain" x="199" y="531" width="94" height="93"/>
+  <object id="98" name="mountain" x="295" y="531" width="94" height="93"/>
+  <object id="99" name="mountain" x="871" y="579" width="94" height="93"/>
+  <object id="100" name="mountain" x="7" y="627" width="94" height="93"/>
+  <object id="101" name="mountain" x="295" y="627" width="94" height="93"/>
+  <object id="102" name="mountain" x="7" y="723" width="94" height="93"/>
+  <object id="103" name="mountain" x="295" y="723" width="94" height="93"/>
+  <object id="104" name="mountain" x="679" y="723" width="94" height="93"/>
+  <object id="105" name="mountain" x="7" y="819" width="94" height="93"/>
+  <object id="106" name="mountain" x="295" y="819" width="94" height="93"/>
+  <object id="107" name="mountain" x="487" y="819" width="94" height="93"/>
+  <object id="108" name="mountain" x="583" y="819" width="94" height="93"/>
+  <object id="109" name="mountain" x="679" y="819" width="94" height="93"/>
+  <object id="110" name="mountain" x="871" y="867" width="94" height="93"/>
+  <object id="111" name="mountain" x="967" y="867" width="94" height="93"/>
+  <object id="112" name="mountain" x="1063" y="867" width="94" height="93"/>
+  <object id="113" name="mountain" x="7" y="915" width="94" height="93"/>
+  <object id="114" name="mountain" x="295" y="915" width="94" height="93"/>
+  <object id="115" name="mountain" x="391" y="915" width="94" height="93"/>
+  <object id="116" name="mountain" x="487" y="915" width="94" height="93"/>
+  <object id="117" name="mountain" x="775" y="963" width="94" height="93"/>
+  <object id="118" name="mountain" x="871" y="963" width="94" height="93"/>
+  <object id="119" name="mountain" x="7" y="1011" width="94" height="93"/>
+  <object id="120" name="mountain" x="583" y="1059" width="94" height="93"/>
+  <object id="121" name="mountain" x="679" y="1059" width="94" height="93"/>
+  <object id="122" name="mountain" x="775" y="1059" width="94" height="93"/>
+  <object id="123" name="mountain" x="7" y="1107" width="94" height="93"/>
+  <object id="124" name="mountain" x="103" y="1107" width="94" height="93"/>
+  <object id="125" name="mountain" x="199" y="1107" width="94" height="93"/>
+  <object id="126" name="mountain" x="295" y="1107" width="94" height="93"/>
+  <object id="127" name="mountain" x="391" y="1107" width="94" height="93"/>
+  <object id="128" name="mountain" x="487" y="1107" width="94" height="93"/>
+ </objectgroup>
+ <layer id="4" name="collision" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,79,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,79,80,79,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,95,96,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,79,80,0,0,79,80,79,80,79,80,79,80,0,0,0,0,0,0,0,
+79,80,0,0,0,0,95,96,0,0,95,96,95,96,95,96,95,96,0,0,0,0,0,0,0,
+95,96,0,0,0,0,79,80,79,80,79,80,0,0,0,0,79,80,0,0,0,0,0,0,0,
+79,80,0,0,0,0,95,96,95,96,95,96,0,0,0,0,95,96,0,0,0,0,0,0,0,
+95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79,80,0,0,0,0,0,0,0,
+79,80,79,80,79,80,0,0,0,0,0,0,0,0,0,0,95,96,0,0,0,0,0,0,0,
+95,96,95,96,95,96,0,0,0,0,0,0,0,0,0,0,79,80,79,80,0,0,0,0,0,
+79,80,79,80,79,80,79,80,0,0,0,0,0,0,0,0,95,96,95,96,0,0,0,0,0,
+95,96,95,96,95,96,95,96,0,0,0,0,0,0,0,0,0,0,79,80,0,0,0,0,0,
+79,80,0,0,0,0,79,80,0,0,0,0,0,0,0,0,0,0,95,96,0,0,0,0,0,
+95,96,0,0,0,0,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+79,80,0,0,0,0,79,80,0,0,0,0,0,0,79,80,0,0,0,0,0,0,0,0,0,
+95,96,0,0,0,0,95,96,0,0,0,0,0,0,95,96,0,0,0,0,0,0,0,0,0,
+79,80,0,0,0,0,79,80,0,0,79,80,79,80,79,80,0,0,0,0,0,0,0,0,0,
+95,96,0,0,0,0,95,96,0,0,95,96,95,96,95,96,0,0,79,80,79,80,79,80,0,
+79,80,0,0,0,0,79,80,79,80,79,80,0,0,0,0,0,0,95,96,95,96,95,96,0,
+95,96,0,0,0,0,95,96,95,96,95,96,0,0,0,0,79,80,79,80,0,0,0,0,0,
+79,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,95,96,95,96,0,0,0,0,0,
+95,96,0,0,0,0,0,0,0,0,0,0,79,80,79,80,79,80,0,0,0,0,0,0,0,
+79,80,79,80,79,80,79,80,79,80,79,80,95,96,95,96,95,96,0,0,0,0,0,0,0,
+95,96,95,96,95,96,95,96,95,96,95,96,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
