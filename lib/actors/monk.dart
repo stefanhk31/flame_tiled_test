@@ -7,9 +7,9 @@ import 'package:flutter/services.dart';
 
 enum MoveDirection { left, right, up, down }
 
-class EmberPlayer extends SpriteAnimationComponent
+class MonkPlayer extends SpriteAnimationComponent
     with KeyboardHandler, HasGameReference<TiledGame> {
-  EmberPlayer({required super.position})
+  MonkPlayer({required super.position})
     : super(size: Vector2.all(48), anchor: Anchor.center);
 
   int horizontalDirection = 0;
@@ -21,11 +21,11 @@ class EmberPlayer extends SpriteAnimationComponent
   @override
   FutureOr<void> onLoad() {
     animation = SpriteAnimation.fromFrameData(
-      game.images.fromCache('ember.png'),
+      game.images.fromCache('monk.png'),
       SpriteAnimationData.sequenced(
-        amount: 4,
-        textureSize: Vector2.all(16),
-        stepTime: 0.12,
+        amount: 2,
+        textureSize: Vector2.all(32),
+        stepTime: 0.33,
       ),
     );
   }

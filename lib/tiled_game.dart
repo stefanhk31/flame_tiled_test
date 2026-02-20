@@ -3,11 +3,11 @@ import 'package:flame/events.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 import 'package:flame_tiled/flame_tiled.dart';
-import 'package:flame_tiled_test/actors/ember.dart';
+import 'package:flame_tiled_test/actors/monk.dart';
 
 class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
   late TiledComponent mapComponent;
-  late EmberPlayer _ember;
+  late MonkPlayer _ember;
   late TiledObject _start;
   late TiledObject _finish;
   TiledObject get finish => _finish;
@@ -23,7 +23,7 @@ class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
   @override
   Future<void> onLoad() async {
     await super.onLoad();
-    await Flame.images.load("ember.png");
+    await Flame.images.loadAll(['ember.png', 'monk.png']);
 
     camera.viewfinder
       ..anchor = Anchor.topLeft
@@ -48,7 +48,7 @@ class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
 
     final emberStart = Vector2(_start.position.x + 24, _start.position.y + 24);
 
-    _ember = EmberPlayer(position: emberStart);
+    _ember = MonkPlayer(position: emberStart);
     await world.add(_ember);
   }
 
