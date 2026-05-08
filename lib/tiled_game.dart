@@ -3,11 +3,12 @@ import 'package:flame/events.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
 import 'package:flame_tiled/flame_tiled.dart';
+import 'package:flame_tiled_test/actors/knight.dart';
 import 'package:flame_tiled_test/actors/monk.dart';
 
 class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
   late TiledComponent mapComponent;
-  late MonkPlayer _ember;
+  late MonkPlayer _monk;
   late TiledObject _start;
   late TiledObject _finish;
   TiledObject get finish => _finish;
@@ -23,7 +24,7 @@ class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
   @override
   Future<void> onLoad() async {
     await super.onLoad();
-    await Flame.images.loadAll(['ember.png', 'monk.png']);
+    await Flame.images.loadAll(['ember.png', 'monk.png', 'knight.png']);
 
     camera.viewfinder
       ..anchor = Anchor.topLeft
@@ -46,14 +47,16 @@ class TiledGame extends FlameGame with HasKeyboardHandlerComponents {
         .where((o) => o.name == 'mountain')
         .toList();
 
-    final emberStart = Vector2(_start.position.x + 24, _start.position.y + 24);
+    final monkStart = Vector2(_start.position.x + 24, _start.position.y + 24);
 
-    _ember = MonkPlayer(position: emberStart);
-    await world.add(_ember);
+    _monk = MonkPlayer(position: monkStart);
+    await world.add(_monk);
+
+    await world.add(KnightEnemy(position: Vector2.all(100)));
   }
 
   void reset() {
-    _ember.position = Vector2(_start.position.x + 24, _start.position.y + 24);
+    _monk.position = Vector2(_start.position.x + 24, _start.position.y + 24);
     camera.viewfinder
       ..anchor = Anchor.topLeft
       ..position = Vector2.zero();

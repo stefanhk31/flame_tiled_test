@@ -12,6 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flame: ^1.35.1
   flame_tiled: ^3.0.11
+  flame_test: ^2.2.3
 
 dev_dependencies:
   flutter_test:
